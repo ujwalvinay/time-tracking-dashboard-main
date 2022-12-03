@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+body {
+  background: hsl(226deg, 43%, 10%);
+}
+
+.cardBox {
+  width: 15rem;
+  padding-top: 1rem;
+  border-radius: 25px;
+}
+.cardBox .IconImg {
+  text-align: end;
+  width: 20px;
+}
+.cardBox .cardData {
+  border-radius: 25px;
+  text-align: center;
+  color: white;
+  background: hsl(235deg, 46%, 20%);
+  padding: 2rem;
+  margin: 1rem 0;
+}
+.cardBox .cardData h6 {
+  font-weight: 400;
+}
+.cardBox .cardData h2 {
+  font-weight: 300;
+  padding: 1rem;
+  text-align: start;
+  font-size: 35px;
+}/*# sourceMappingURL=style.css.map */
